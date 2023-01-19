@@ -1,0 +1,145 @@
+.button {
+  background-color: rgba(227, 184, 115, 1);
+  box-shadow: 0px 15px 15px rgba(227, 184, 115, 0.2);
+  height: 51px;
+  width: 200px;
+  border: 0;
+  border-radius: 0px;
+  text-align: center;
+  color: white;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+.title {
+  font-family: 'Yeseva One', cursive;
+  font-size: 27px;
+  color: #E3B873;
+  text-transform: uppercase;
+}
+
+.subtitle {
+  font-family: 'Yeseva One', cursive;
+  font-size: 20px;
+  color: #181818;
+  text-transform: uppercase;
+}
+
+body {
+  margin: 0;
+  font-family: 'Nunito Sans', sans-serif;
+  text-transform: uppercase;
+}
+
+.header {
+  background: #131313;
+  max-width: 1438px;
+  height: 83px;
+  display: flex;
+  align-items: center;
+}
+
+.header-content {
+  margin: auto;
+  width: 1256px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 11px;
+}
+
+.logo {
+  color: #E3B873;
+  text-transform: uppercase;
+}
+
+.header-navigation {
+  list-style: none;
+  display: flex;
+  
+}
+
+.header-navigation__item a {
+  margin-right: 47px;
+  color: white;
+  text-decoration: none;
+}
+
+.header-navigation__item a.home {
+  color: #E3B873;
+}
+
+.ph-number a {
+  color: #E3B873
+}
+
+.button-call {
+  border-radius: 2px;
+  height: 37px;
+  width: 161px;
+  font-style: italic;
+  font-size: 11px;
+}
+.picture{
+  height: 707px;
+  width: 1438px;
+  top: 83px;
+  background-image:url(../images/image1.jpg);
+}
+
+.shadow {
+  height: 707px;
+  width: 1438px;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.main-content{
+  width: 677px;
+  height: 305px;
+  position: absolute;
+  margin: top 194px;
+  top: 277px;
+  left: 134px;
+}
+
+.title-white, .title-40px {
+  font-size: 40px;
+  line-height: 53px;
+  display: inline-block;
+}
+
+.title-white {
+  color: white;
+}
+
+.description {
+  width: 505px;
+  height: 90px;
+  margin-top: 19px;
+  color: white;
+  font-size: 22px;
+  text-transform: none;
+  line-height: 36px;
+  text-align: left;
+}
+
+.button-cost {
+  border-radius: 2px;
+  width: 207px;
+  font-style: italic;
+  font-size: 11px;
+  margin-top: 41px;
+  margin-right: 20px;
+}
+
+.button-submit {
+  border-radius: 2px;
+  width: 207px;
+  border: 1px solid #FFFFFF;
+  font-style: italic;
+  font-size: 11px;
+  margin-top: 41px;
+  margin-right: 20px;
+  background-color: transparent;
+  box-shadow: none;
+}
